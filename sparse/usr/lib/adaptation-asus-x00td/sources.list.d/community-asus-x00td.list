@@ -1,1 +1,2 @@
 # You can add here your custom apt repositories
+deb [arch=arm64 signed-by=/usr/share/keyrings/x00td.gpg] https://repo.droidian-community.fakeshell.com/ bookworm main
