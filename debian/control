@@ -1,0 +1,19 @@
+Source: adaptation-asus-x00td
+Maintainer: iAboothahir <aboothahirpkd@gmail.com>
+Section: metapackages
+Priority: optional
+Build-Depends: debhelper (>= 10),
+               debhelper-compat (= 13),
+Standards-Version: 4.5.0.3
+
+Package: adaptation-asus-x00td
+Architecture: arm64
+Depends: ${misc:Depends},
+         adaptation-hybris-api28-phone,
+         adaptation-asus-x00td-configs (= ${binary:Version}),
+Description: Community adaptation for asus-x00td - metapackage
+
+Package: adaptation-asus-x00td-configs
+Architecture: arm64
+Depends: ${misc:Depends},
+Description: Community adaptation for asus-x00td - adaptation configurations
