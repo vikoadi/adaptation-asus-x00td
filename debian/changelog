@@ -1,6 +1,11 @@
-adaptation-asus-x00td (0.0.0+git20230629051318.d5d6e35.bookworm) bookworm; urgency=medium
+adaptation-asus-x00td (0.0.0+git20230629051318.d5d6e35.bookworm+git20230630134058.36a8b17.bookworm+git20230630143016.9d59edf.bookworm) bookworm; urgency=medium
 
   * Initial commit
+  * debian:Add changelog
+  * sparse: Add x00td.gpg
+  * device: cleanups
+  * debian: Add udev-rules ,brightness fix
+  * debian: update changelog
 
- -- iAboothahir <aboothahirpkd@gmail.com>  Thu, 29 Jun 2023 05:13:18 +0000
+ -- iAboothahir <aboothahirpkd@gmail.com>  Fri, 30 Jun 2023 14:30:16 +0000
 
